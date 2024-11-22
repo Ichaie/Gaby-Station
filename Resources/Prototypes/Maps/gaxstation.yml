@@ -4,7 +4,6 @@
   mapPath: /Maps/_Gabystation/gaxstation.yml
   minPlayers: 10
   maxPlayers: 45
-  fallback: true
   stations:
     Gax:
       stationProto: StandardNanotrasenStation
@@ -17,8 +16,6 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'YG'
         - type: StationJobs
-          overflowJobs:
-          - Passenger
           availableJobs:
             #service
             Captain: [ 1, 1 ]
