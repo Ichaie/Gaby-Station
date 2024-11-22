@@ -43,7 +43,7 @@
             #Science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 4, 4 ]
-            ResearchAssistant: [ 2, 2 ]]
+            ResearchAssistant: [ 2, 2 ]
             #Security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
@@ -61,5 +61,5 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             #Silicon
-            StationAI: [ 1, 1 ]
+            StationAi: [ 1, 1 ]
             Borg: [ 2, 3 ]

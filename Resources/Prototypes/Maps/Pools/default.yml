@@ -2,6 +2,7 @@
   id: DefaultMapPool
   maps:
   - Atlas
+  - Gax
   - Bagel
   - Box
   - Cluster
@@ -21,4 +22,3 @@
   - OasisHighPop
   - Barratry # Goobstation - Re-add barratry
   - Kettle # Goobstation - Re-add kettle (before it was gemini!)
-  - Gax # Gabystation
