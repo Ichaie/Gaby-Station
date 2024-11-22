@@ -2,7 +2,7 @@
   id: DefaultMapPool
   maps:
   - Atlas
-  - Gax
+  - Gax # Gabystation
   - Bagel
   - Box
   - Cluster
