@@ -54,3 +54,6 @@
 
 - files: ["cog.yml"]
   authors: Spacemann
+
+- files: ["gaxstation.yml]
+  authors: Ichai, baiomu
