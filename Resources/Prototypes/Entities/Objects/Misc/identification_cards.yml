@@ -811,5 +811,6 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
+    - Wizard
   - type: NanoChatCard # DeltaV
     notificationsMuted: true
