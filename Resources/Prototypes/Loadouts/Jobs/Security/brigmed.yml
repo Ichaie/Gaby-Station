@@ -1,0 +1,131 @@
+# Head
+- type: loadout
+  id: BrigMedBeret
+  equipment:
+    head: ClothingHeadHatBeretBrigmedic
+
+- type: loadout
+  id: SecurityBeret
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+
+- type: loadout
+  id: MedicalBeret
+  equipment:
+    head: ClothingHeadHatBeretMedic
+
+- type: loadout
+  id: TrooperHat
+  equipment:
+    head: ClothingHeadHatSecurityTrooper
+
+# Jumpsuit
+- type: loadout
+  id: BrigMedJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+
+- type: loadout
+  id: BrigMedJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBrigmedic
+
+- type: loadout
+  id: SkirtofLife
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtOfLife
+
+- type: loadout
+  id: SeniorOfficerJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorOfficer
+
+- type: loadout
+  id: SeniorOfficerJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorOfficer
+
+# Back
+- type: loadout
+  id: BrigMedBackpack
+  equipment:
+    back: ClothingBackpackBrigmedic
+
+- type: loadout
+  id: BrigMedSatchel
+  equipment:
+    back: ClothingBackpackSatchelBrigmedic
+
+- type: loadout
+  id: BrigMedDuffel
+  equipment:
+    back: ClothingBackpackDuffelBrigmedic
+
+# Belt
+- type: loadout
+  id: MedicalBelt
+  equipment:
+    belt: ClothingBeltMedicalFilled
+
+- type: loadout
+  id: ParamedicBelt
+  equipment:
+    belt: ClothingBeltMedicalEMTFilled
+
+
+# OuterClothing
+- type: loadout
+  id: BrigMedArmorVest
+  equipment:
+    outerClothing: ClothingOuterCoatAMG
+
+- type: loadout
+  id: ArmorVest
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: ArmorVestSlim
+  equipment:
+    outerClothing: ClothingOuterArmorBasicSlim
+
+- type: loadout
+  id: SecurityOfficerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterSec
+
+# Shoes
+- type: loadout
+  id: CombatBoots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: JackBoots
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: SecurityWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterSecFilled
+
+# PDA
+- type: loadout
+  id: BrigMedPDA
+  equipment:
+    id: BrigmedicPDA
+
+- type: loadout
+  id: SeniorOfficerPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    id: SeniorOfficerPDA

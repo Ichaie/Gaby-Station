@@ -1058,6 +1058,64 @@
   - SeniorOfficerPDA
 
 - type: loadoutGroup
+  id: BrigMedHead
+  name: loadout-group-brigmed-head
+  minLimit: 0
+  loadouts:
+  - BrigMedBeret
+  - SecurityBeret
+  - MedicalBeret
+  - TrooperHat
+
+- type: loadoutGroup
+  id: BrigMedJumpsuit
+  name: loadout-group-brigmed-jumpsuit
+  loadouts:
+  - BrigMedJumpsuit
+  - BrigMedJumpskirt
+  - SkirtofLife
+  - SeniorOfficerJumpsuit
+  - SeniorOfficerJumpskirt
+
+- type: loadoutGroup
+  id: BrigMedBackpack
+  name: loadout-group-brigmed-backpack
+  loadouts:
+  - BrigMedBackpack
+  - BrigMedSatchel
+  - BrigMedDuffel
+
+- type: loadoutGroup
+  id: BrigMedBelt
+  name: loadout-group-brigmed-belt
+  loadouts:
+  - MedicalBelt
+  - ParamedicBelt
+
+- type: loadoutGroup
+  id: BrigMedOuterClothing
+  name: loadout-group-brigmed-outerclothing
+  loadouts:
+  - BrigMedArmorVest
+  - ArmorVest
+  - ArmorVestSlim
+
+- type: loadoutGroup
+  id: BrigMedShoes
+  name: loadout-group-brigmed-shoes
+  loadouts:
+  - JackBoots
+  - SecurityWinterBoots
+  - CombatBoots
+
+- type: loadoutGroup
+  id: BrigMedPDA
+  name: loadout-group-brigmed-id
+  loadouts:
+  - BrigMedPDA
+  - SeniorOfficerPDA
+
+- type: loadoutGroup
   id: DetectiveHead
   name: loadout-group-detective-head
   minLimit: 0

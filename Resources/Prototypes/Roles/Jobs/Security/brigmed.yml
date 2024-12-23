@@ -1,0 +1,44 @@
+- type: job
+  id: BrigMed
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigMed
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 14400 #4 hrs
+  startingGear: BrigMedGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: SurgerySpeedModifier
+      SpeedModifier: 1.75
+
+
+- type: startingGear
+  id: BrigMedGear
+  equipment:
+    eyes: ClothingEyesHudMedSec
+    ears: ClothingHeadsetBrigmedic
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - EmergencyRollerBedSpawnFolded
+    - SecHypo # Goobstation

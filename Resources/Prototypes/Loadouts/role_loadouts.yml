@@ -362,6 +362,20 @@
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
+  id: JobBrigMed
+  groups:
+  - BrigMedHead
+  - BrigMedJumpsuit
+  - BrigMedBelt
+  - BrigMedBackpack
+  - BrigMedOuterClothing
+  - BrigMedShoes
+  - SurvivalSecurity
+  - Trinkets
+  - BrigMedPDA
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
   id: JobSecurityOfficer
   groups:
   - SecurityHead
