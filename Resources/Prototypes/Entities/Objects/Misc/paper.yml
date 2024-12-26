@@ -71,9 +71,11 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 1
-  - type: PhysicalComposition #Goobstation - Recycle update
+  - type: PhysicalComposition
     materialComposition:
-      Paper: 25
+      Paper: 25 #Goobstation - Recycle update
+  - type: Material # Corvax - Printer
+    SheetPrinter: 100
 
 - type: entity
   name: paper scrap
@@ -600,6 +602,10 @@
     damage:
       types:
         Blunt: 10
+  - type: Tag
+    tags:
+    - Folder
+    - HighRiskItem
   - type: StealTarget
     stealGroup: BoxFolderQmClipboard
 

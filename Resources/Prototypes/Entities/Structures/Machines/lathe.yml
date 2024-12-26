@@ -154,6 +154,7 @@
       - ExteriorLightTube
       - LightBulb
       - LedLightBulb
+      - DimLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal
@@ -237,8 +238,18 @@
       - CartridgeBicaridine # Goobstation
       - CartridgeDermaline # Goobstation
       - CartridgeEphedrine # Goobstation
-      - CartridgeIchor # Goobstation
+      - CartridgePuncturase # Goobstation
       - SecHypo # Goobstation
+      - ParamedHypo # Goobstation - ParamedHypo
+      - MagazinePistolCaselessRifle # Goobstation
+      - MagazineBoxCaselessRifle # Goobstation
+      - MagazineLightRifleBoxEmpty # Goobstation
+      - MagazineLightRifleBox # Goobstation
+      - MagazineHighCaliberEmpty # Goobstation
+      - MagazineHighCaliber # Goobstation
+      - MagazineBoxHighCaliber # Goobstation
+      - MagazineMagnumEmpty # Goobstation
+      - MagazineMagnum # Goobstation
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -299,7 +310,7 @@
     - LargeBeaker
     - Dropper
     - ClothingEyesGlassesChemical
-    - MaterialBSCrystal # Goobstation
+    - MaterialBSCrystal1
     dynamicRecipes:
       - PowerDrill
       - MiningDrill
@@ -459,6 +470,7 @@
     - ChemMasterMachineCircuitboard
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
+    - PrinterDocMachineCircuitboard # Corvax-Printer
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
@@ -603,11 +615,6 @@
     - BorgModuleFireExtinguisher
     - BorgModuleRadiationDetection
     - BorgModuleTool
-    - BorgModuleAppraisal
-    - BorgModuleConstruction
-    - BorgModuleService
-    - BorgModuleTreatment
-    - BorgModuleCleaning
     - CyborgEndoskeleton
     - LeftArmBorg
     - RightArmBorg
@@ -615,53 +622,31 @@
     - RightLegBorg
     - LightHeadBorg
     - TorsoBorg
-    - LeftArmBorgEngineer
-    - RightArmBorgEngineer
-    - LeftLegBorgEngineer
-    - RightLegBorgEngineer
-    - HeadBorgEngineer
-    - TorsoBorgEngineer
-    - LeftLegBorgJanitor
-    - RightLegBorgJanitor
-    - HeadBorgJanitor
-    - TorsoBorgJanitor
-    - LeftArmBorgMedical
-    - RightArmBorgMedical
-    - LeftLegBorgMedical
-    - RightLegBorgMedical
-    - HeadBorgMedical
-    - TorsoBorgMedical
-    - LeftArmBorgMining
-    - RightArmBorgMining
-    - LeftLegBorgMining
-    - RightLegBorgMining
-    - HeadBorgMining
-    - TorsoBorgMining
-    - LeftArmBorgService
-    - RightArmBorgService
-    - LeftLegBorgService
-    - RightLegBorgService
-    - HeadBorgService
-    - TorsoBorgService
-    - BorgModuleSurgery # Shitmed Change
     - MechAirTank # Goobstation
     - MechThruster # Goobstation
+    # Shitmed Change
+    - BorgModuleSurgery
+    - TorsoIPC
+    - LeftArmIPC
+    - RightArmIPC
+    - LeftLegIPC
+    - RightLegIPC
+    - HeadIPC
+    - LeftHandIPC
+    - RightHandIPC
+    - LeftFootIPC
+    - RightFootIPC
+    - OrganIPCEyes
+    - OrganIPCPump
     dynamicRecipes:
     - ProximitySensor
-    - BorgModuleLightReplacer
     - BorgModuleAdvancedCleaning
-    - BorgModuleMining
-    - BorgModuleGrapplingGun
     - BorgModuleAdvancedTool
     - BorgModuleGPS
-    - BorgModuleRCD
     - BorgModuleArtifact
     - BorgModuleAnomaly
     - BorgModuleGardening
     - BorgModuleHarvesting
-    - BorgModuleMusique
-    - BorgModuleClowning
-    - BorgModuleDiagnosis
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
     - RipleyHarness
@@ -870,7 +855,9 @@
       - CartridgeBicaridine # Goobstation
       - CartridgeDermaline # Goobstation
       - SecHypo # Goobstation
-      - SyringeGun # Goobstation  
+      - SyringeGun # Goobstation
+      - MagazineMagnumEmpty # Goobstation
+      - MagazineMagnum # Goobstation
     dynamicRecipes:
       - BoxBeanbag
       - BoxShotgunIncendiary
@@ -935,6 +922,15 @@
       - WeaponMechCombatDisabler
       - WeaponMechCombatFlashbangLauncher
       - WeaponMechCombatMissileRack8
+  - type: EmagLatheRecipes # Goobstation
+    emagStaticRecipes:
+    - MagazinePistolCaselessRifle # Goobstation
+    - MagazineBoxCaselessRifle # Goobstation
+    - MagazineLightRifleBoxEmpty # Goobstation
+    - MagazineLightRifleBox # Goobstation
+    - MagazineHighCaliberEmpty # Goobstation
+    - MagazineHighCaliber # Goobstation
+    - MagazineBoxHighCaliber # Goobstation
   - type: MaterialStorage
     whitelist:
       tags:
@@ -985,6 +981,17 @@
         - MagazineShotgunSlug
         - SpeedLoaderMagnum
         - SpeedLoaderMagnumEmpty
+        - MagazineMagnumEmpty # Goobstation
+        - MagazineMagnum # Goobstation
+    - type: EmagLatheRecipes # Goobstation
+      emagStaticRecipes:
+      - MagazinePistolCaselessRifle # Goobstation
+      - MagazineBoxCaselessRifle # Goobstation
+      - MagazineLightRifleBoxEmpty # Goobstation
+      - MagazineLightRifleBox # Goobstation
+      - MagazineHighCaliberEmpty # Goobstation
+      - MagazineHighCaliber # Goobstation
+      - MagazineBoxHighCaliber # Goobstation
     - type: MaterialStorage
       whitelist:
         tags:
@@ -1056,9 +1063,14 @@
       - SyringeGun #Goobstation
       - MedicalPatchBasic  #Goobstation - MedicalPatch
       - MedicalPatchRapid #Goobstation - MedicalPatch
+      - MedicalPatchTherapeutic #Goobstation - MedicalPatch
       - MedicalPatchLarge #Goobstation - MedicalPatch
       - BoneGel # Shitmed Change
       - VehicleWheelchairFolded # Goobstation - Vehicles
+      - CartridgeEpinephrine # Goobstation - ParamedHypo
+      - CartridgeBicaridine # Goobstation - ParamedHypo
+      - CartridgeDermaline # Goobstation - ParamedHypo
+      - ParamedHypo # Goobstation - ParamedHypo
     dynamicRecipes:
       - ChemicalPayload
       - CryostasisBeaker
@@ -1384,6 +1396,7 @@
         - IngotSilver1
         - MaterialBananium1
         - MaterialDiamond
+
 
 - type: entity
   parent: OreProcessor

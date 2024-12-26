@@ -1,77 +1,88 @@
 Entries:
-- author: Dreykor
-  time: '2024-11-6T12:01:00.0000000+00:00'
-  url: https://github.com/Scomossor/Gaby-Station/pull/2 #url se tiver
-  changes:
-    - type: Add # One of the following: Add, Remove, Tweak, Fix
-      message: Adiciona o changelog do Gaby Station!
-- author: cosmosgc
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  url: https://github.com/Scomossor/Gaby-Station/pull/4
-  changes:
-    - type: Add
-      message: Adiciona canvas para desenho
-- author: AgentePanela
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Tradução ao lobby
-- author: AgentePanela
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Console de energia portatil
-- author: AgentePanela
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Tweak
-      message: Revenant
-- author: AgentePanela
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Melhorias no console de comunicações
-- author: Zeroblacck
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Mais tradução para o jogo
-- author: JoseFernando-TZ
-  time: '2024-11-18T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Mais tradução para o jogo
-- author: Dreykor
-  time: '2024-11-18T20:15:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Adiciona Cabelo e Barba para a raça Moth!
-- author: Dreykor
-  time: '2024-11-20T10:26:00.0000000+00:00'
-  changes:
-    - type: Fix
-      message: Corrige a falta de cabelo e barba para Moth! # Viva a evoluçao!
-- author: Day-OS
-  time: '2024-11-21T12:01:00.0000000+00:00'
-  url: https://github.com/Day-OS/estacao-pirata-14/commit/4cc22579c59061d09c0b8b6b79c7dfd192540374
-  changes:
-    - type: Add
-      message: Cartas! 🃏 (cherry-picked)
-- author: Day-OS
-  time: '2024-11-21T12:01:00.0000000+00:00'
-  url: https://github.com/Day-OS/estacao-pirata-14/commit/0af1e2a4fe85087497c872281cb3913a2f918696
-  changes:
-    - type: Add
-      message: Vestidos e Ternos! (cherry-picked)
-- author: Day-OS
-  time: '2024-11-21T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Muitas roupas novas (cherry-picked)
-- author: AgentePanela
-  time: '2024-12-03T12:01:00.0000000+00:00'
-  changes:
-    - type: Add
-      message: Papai noel! (por tempo limitado)
+  - author: Dreykor
+    time: "2024-11-6T12:01:00.0000000+00:00"
+    url: https://github.com/Scomossor/Gaby-Station/pull/2 #url se tiver
+    changes:
+      - type: Add # One of the following: Add, Remove, Tweak, Fix
+        message: Adiciona o changelog do Gaby Station!
+  - author: cosmosgc
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    url: https://github.com/Scomossor/Gaby-Station/pull/4
+    changes:
+      - type: Add
+        message: Adiciona canvas para desenho
+  - author: AgentePanela
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Tradução ao lobby
+  - author: AgentePanela
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Console de energia portatil
+  - author: AgentePanela
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Tweak
+        message: Revenant
+  - author: AgentePanela
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Melhorias no console de comunicações
+  - author: Zeroblacck
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Mais tradução para o jogo
+  - author: JoseFernando-TZ
+    time: "2024-11-18T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Mais tradução para o jogo
+  - author: Dreykor
+    time: "2024-11-18T20:15:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Adiciona Cabelo e Barba para a raça Moth!
+  - author: Dreykor
+    time: "2024-11-20T10:26:00.0000000+00:00"
+    changes:
+      - type: Fix
+        message: Corrige a falta de cabelo e barba para Moth! # Viva a evoluçao!
+  - author: Day-OS
+    time: "2024-11-21T12:01:00.0000000+00:00"
+    url: https://github.com/Day-OS/estacao-pirata-14/commit/4cc22579c59061d09c0b8b6b79c7dfd192540374
+    changes:
+      - type: Add
+        message: Cartas! 🃏 (cherry-picked)
+  - author: Day-OS
+    time: "2024-11-21T12:01:00.0000000+00:00"
+    url: https://github.com/Day-OS/estacao-pirata-14/commit/0af1e2a4fe85087497c872281cb3913a2f918696
+    changes:
+      - type: Add
+        message: Vestidos e Ternos! (cherry-picked)
+  - author: Day-OS
+    time: "2024-11-21T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Muitas roupas novas (cherry-picked)
+  - author: AgentePanela
+    time: "2024-12-08T12:01:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Impressora de documentos (cherry-picked)
+  - author: Lenhare
+    time: "2024-12-22T21:30:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Tradução inicial do "Guide Book".
+Name: GabyStation
+  - author: Zequin
+    time: "2024-12-22T21:30:00.0000000+00:00"
+    changes:
+      - type: Add
+        message: Tradução inicial do "Guide Book".
 Name: GabyStation
 Order: -2
