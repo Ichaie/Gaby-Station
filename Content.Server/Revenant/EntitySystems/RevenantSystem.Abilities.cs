@@ -43,6 +43,7 @@ public sealed partial class RevenantSystem
     [Dependency] private readonly TileSystem _tile = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
+    [Dependency] private readonly SharedMapSystem _mapSystem = default!;
 
     private void InitializeAbilities()
     {
@@ -228,8 +229,12 @@ public sealed partial class RevenantSystem
         var xform = Transform(uid);
         if (!TryComp<MapGridComponent>(xform.GridUid, out var map))
             return;
-        var tiles = map.GetTilesIntersecting(Box2.CenteredAround(_transformSystem.GetWorldPosition(xform),
-            new Vector2(component.DefileRadius * 2, component.DefileRadius))).ToArray();
+        var tiles = _mapSystem.GetTilesIntersecting(
+            xform.GridUid.Value,
+            map,
+            Box2.CenteredAround(_transformSystem.GetWorldPosition(xform),
+            new Vector2(component.DefileRadius * 2, component.DefileRadius)))
+            .ToArray();
 
         _random.Shuffle(tiles);
 
@@ -320,6 +325,16 @@ public sealed partial class RevenantSystem
 
         args.Handled = true;
         // TODO: When disease refactor is in.
+
+        // backmen-start: Disease
+        var disSys = EntityManager.System<Backmen.Disease.DiseaseSystem>();
+        var emo = GetEntityQuery<Shared.Backmen.Disease.DiseaseCarrierComponent>();
+        foreach (var ent in _lookup.GetEntitiesInRange(uid, component.BlightRadius))
+        {
+            if (emo.TryComp(ent, out var comp))
+                disSys.TryAddDisease(ent, component.BlightDiseasePrototypeId, comp);
+        }
+        // backmen-end: Disease
     }
 
     private void OnMalfunctionAction(EntityUid uid, RevenantComponent component, RevenantMalfunctionActionEvent args)

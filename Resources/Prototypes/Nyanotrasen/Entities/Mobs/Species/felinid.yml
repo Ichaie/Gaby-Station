@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McGremlin
+  name: Urist McFelinid
   parent: BaseMobHuman
   id: MobFelinidBase
   abstract: true
@@ -73,6 +73,7 @@
     - DoorBumpOpener
     - FelinidEmotes
   - type: FootPrints # WD EDIT
+  - type: Wagging # DeltaV + Einstein-Engine
 
 - type: entity
   save: false
