@@ -1,6 +1,6 @@
 - type: gameMap
   id: SalternGaby
-  mapName: 'Saltern'
+  mapName: 'NewSaltern'
   mapPath: /Maps/_Gabystation/salterngaby.yml # Gabystation - saltern secundaria
   minPlayers: 0
   maxPlayers: 35
