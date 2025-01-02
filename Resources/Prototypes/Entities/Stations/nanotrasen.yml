@@ -31,6 +31,30 @@
     - type: Transform
 
 - type: entity
+  id: StandardNanotrasenStationNoATS
+  parent:
+    - BaseStation
+    - BaseStationNews
+    - BaseStationCargo
+    - BaseStationJobsSpawning
+    - BaseStationRecords
+    - BaseStationArrivals
+    - BaseStationGateway
+    - BaseStationShuttlesSalvageOnly
+    - BaseStationCentcomm
+    - BaseStationEvacuation
+    - BaseStationAlertLevels
+    - BaseStationMagnet
+    - BaseStationExpeditions
+    - BaseStationSiliconLawCrewsimov
+    - BaseStationAllEventsEligible
+    - BaseStationNanotrasen
+    - BaseStationMail # Nyano component, required for station mail to function
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Transform
+
+- type: entity
   id: NanotrasenCentralCommand
   parent:
     - BaseStation
