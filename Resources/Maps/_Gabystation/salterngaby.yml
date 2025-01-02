@@ -4357,7 +4357,7 @@ entities:
       pos: 3.5,22.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -37497.297
+      secondsUntilStateChange: -37628.98
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7460,8 +7460,11 @@ entities:
     - type: MetaData
       name: Secret Documents
     - type: Transform
-      pos: -1.5007826,16.646563
+      pos: -0.28361666,16.595203
       parent: 31
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
   - uid: 7133
     components:
     - type: Transform
@@ -56876,6 +56879,13 @@ entities:
     - type: Transform
       pos: 7.2571726,18.545927
       parent: 31
+- proto: MaterialSilo
+  entities:
+  - uid: 4190
+    components:
+    - type: Transform
+      pos: -1.5,16.5
+      parent: 31
 - proto: MaterialWoodPlank1
   entities:
   - uid: 9680
@@ -57731,8 +57741,11 @@ entities:
   - uid: 1216
     components:
     - type: Transform
-      pos: -1.53811,16.627865
+      pos: -0.40327483,16.499624
       parent: 31
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: PlaqueAtmos
   entities:
   - uid: 11290
@@ -68853,11 +68866,6 @@ entities:
     components:
     - type: Transform
       pos: 26.5,0.5
-      parent: 31
-  - uid: 4190
-    components:
-    - type: Transform
-      pos: -1.5,16.5
       parent: 31
   - uid: 4203
     components:
